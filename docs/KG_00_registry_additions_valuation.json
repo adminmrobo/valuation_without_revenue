@@ -1,0 +1,681 @@
+{
+ "registry_base": "0.2",
+ "date": "2026-11-06",
+ "new_entries": [
+  {
+   "id": "lab:method/fermi-estimation",
+   "type": "Method",
+   "label_ko": "페르미 추정",
+   "label_en": "Fermi estimation",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:concept/tam",
+   "type": "Concept",
+   "label_ko": "TAM",
+   "label_en": "total addressable market",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:concept/sam",
+   "type": "Concept",
+   "label_ko": "SAM",
+   "label_en": "serviceable available market",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:concept/som",
+   "type": "Concept",
+   "label_ko": "SOM",
+   "label_en": "serviceable obtainable market",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:concept/market-segmentation",
+   "type": "Concept",
+   "label_ko": "시장 세분화·페르소나",
+   "label_en": "market segmentation and personas",
+   "domain": [
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:method/traffic-revenue-model",
+   "type": "Method",
+   "label_ko": "트래픽 매출식",
+   "label_en": "traffic revenue model",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:metric/daily-access-rate",
+   "type": "Metric",
+   "label_ko": "일 접속률",
+   "label_en": "daily access rate",
+   "domain": [
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:metric/clicks-per-user",
+   "type": "Metric",
+   "label_ko": "1인당 일 클릭 수",
+   "label_en": "daily clicks per user",
+   "domain": [
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:metric/ad-unit-price",
+   "type": "Metric",
+   "label_ko": "광고 단가",
+   "label_en": "ad unit price",
+   "domain": [
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:work/lecture-deck",
+   "type": "Work",
+   "label_ko": "강의 자료: 매출이 없어도 기업가치는 만들 수 있다",
+   "label_en": "lecture deck",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi",
+    "02_proforma_vc",
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:work/msit2019wireless",
+   "type": "Work",
+   "label_ko": "과기정통부 무선통신서비스 통계 (2019.08)",
+   "label_en": "MSIT wireless statistics 2019",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "01_market_kpi"
+   ]
+  },
+  {
+   "id": "lab:concept/pro-forma-income-statement",
+   "type": "Concept",
+   "label_ko": "추정손익계산서",
+   "label_en": "pro forma income statement",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:concept/operating-leverage",
+   "type": "Concept",
+   "label_ko": "영업 레버리지",
+   "label_en": "operating leverage",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:concept/break-even-point",
+   "type": "Concept",
+   "label_ko": "손익분기점",
+   "label_en": "break-even point",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:method/vc-method",
+   "type": "Method",
+   "label_ko": "VC 방법",
+   "label_en": "venture capital method",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:concept/post-money-valuation",
+   "type": "Concept",
+   "label_ko": "Post-money 가치",
+   "label_en": "post-money valuation",
+   "domain": [
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:concept/pre-money-valuation",
+   "type": "Concept",
+   "label_ko": "Pre-money 가치",
+   "label_en": "pre-money valuation",
+   "domain": [
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:metric/per",
+   "type": "Metric",
+   "label_ko": "PER (주가이익비율)",
+   "label_en": "price-earnings ratio",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:concept/target-rate-of-return",
+   "type": "Concept",
+   "label_ko": "목표수익률",
+   "label_en": "target rate of return",
+   "domain": [
+    "biz"
+   ],
+   "pages": [
+    "02_proforma_vc"
+   ]
+  },
+  {
+   "id": "lab:concept/change-study",
+   "type": "Concept",
+   "label_ko": "변화연구(유량)",
+   "label_en": "change (flow) study",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:method/event-study",
+   "type": "Method",
+   "label_ko": "사건연구",
+   "label_en": "event study",
+   "domain": [
+    "acct",
+    "econ"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/level-study",
+   "type": "Concept",
+   "label_ko": "수준연구(저량)",
+   "label_en": "level (stock) study",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:metric/tobins-q",
+   "type": "Metric",
+   "label_ko": "토빈의 Q",
+   "label_en": "Tobin's Q",
+   "domain": [
+    "acct",
+    "econ"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/financial-variables",
+   "type": "Concept",
+   "label_ko": "재무적 변수",
+   "label_en": "financial variables",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/non-financial-variables",
+   "type": "Concept",
+   "label_ko": "비재무적 변수",
+   "label_en": "non-financial variables",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/enterprise-value",
+   "type": "Concept",
+   "label_ko": "기업가치(영업의 가치)",
+   "label_en": "enterprise value",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/equity-value",
+   "type": "Concept",
+   "label_ko": "주주지분가치",
+   "label_en": "equity value",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/net-financial-debt",
+   "type": "Concept",
+   "label_ko": "순재무부채",
+   "label_en": "net financial debt",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:method/ddm",
+   "type": "Method",
+   "label_ko": "배당할인모형",
+   "label_en": "dividend discount model",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:method/dcf",
+   "type": "Method",
+   "label_ko": "현금할인모형",
+   "label_en": "discounted cash flow model",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:method/rim",
+   "type": "Method",
+   "label_ko": "초과이익모형",
+   "label_en": "residual income model",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:method/eva",
+   "type": "Method",
+   "label_ko": "EVA 모형",
+   "label_en": "economic value added model",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/cost-of-equity",
+   "type": "Concept",
+   "label_ko": "자기자본비용",
+   "label_en": "cost of equity",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/wacc",
+   "type": "Concept",
+   "label_ko": "가중평균자본비용",
+   "label_en": "weighted average cost of capital",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/free-cash-flow",
+   "type": "Concept",
+   "label_ko": "잉여현금흐름",
+   "label_en": "free cash flow",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/book-value",
+   "type": "Concept",
+   "label_ko": "장부가치",
+   "label_en": "book value of equity",
+   "domain": [
+    "acct"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/residual-income",
+   "type": "Concept",
+   "label_ko": "초과이익",
+   "label_en": "residual income",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:metric/roe",
+   "type": "Metric",
+   "label_ko": "자기자본이익률",
+   "label_en": "return on equity",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/clean-surplus",
+   "type": "Assumption",
+   "label_ko": "깨끗한 잉여 관계",
+   "label_en": "clean surplus relation",
+   "domain": [
+    "acct"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:theory/ohlson-model",
+   "type": "Theory",
+   "label_ko": "Ohlson 모형",
+   "label_en": "Ohlson model",
+   "domain": [
+    "acct"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:method/ohlson-condensed",
+   "type": "Method",
+   "label_ko": "Ohlson 축약 모형",
+   "label_en": "condensed Ohlson regression",
+   "domain": [
+    "acct",
+    "stats"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/persistence-parameter",
+   "type": "Concept",
+   "label_ko": "지속계수",
+   "label_en": "persistence parameter",
+   "domain": [
+    "acct"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/other-information",
+   "type": "Concept",
+   "label_ko": "기타정보",
+   "label_en": "other information",
+   "domain": [
+    "acct"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/incidental-information",
+   "type": "Concept",
+   "label_ko": "부수적 정보",
+   "label_en": "incidental (supplementary) information",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/rnd-expense",
+   "type": "Account",
+   "label_ko": "연구개발비",
+   "label_en": "research and development expense",
+   "domain": [
+    "acct"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:concept/advertising-expense",
+   "type": "Account",
+   "label_ko": "광고비",
+   "label_en": "advertising expense",
+   "domain": [
+    "acct"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:assumption/risk-neutrality",
+   "type": "Assumption",
+   "label_ko": "위험 중립성 가정",
+   "label_en": "risk neutrality",
+   "domain": [
+    "acct",
+    "econ"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:assumption/market-efficiency",
+   "type": "Assumption",
+   "label_ko": "효율적 시장 가정",
+   "label_en": "market efficiency",
+   "domain": [
+    "acct",
+    "econ"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:work/ohlson1995earnings",
+   "type": "Work",
+   "label_ko": "Ohlson (1995)",
+   "label_en": "Ohlson 1995",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:work/feltham1995valuation",
+   "type": "Work",
+   "label_ko": "Feltham & Ohlson (1995)",
+   "label_en": "Feltham and Ohlson 1995",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:work/preinreich1938annual",
+   "type": "Work",
+   "label_ko": "Preinreich (1938)",
+   "label_en": "Preinreich 1938",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  },
+  {
+   "id": "lab:work/lev1999boundaries",
+   "type": "Work",
+   "label_ko": "Lev & Zarowin (1999)",
+   "label_en": "Lev and Zarowin 1999",
+   "domain": [
+    "acct",
+    "biz"
+   ],
+   "pages": [
+    "03_value_models"
+   ]
+  }
+ ],
+ "updates": [
+  {
+   "id": "lab:topic/linear-regression",
+   "add_domain": [
+    "acct"
+   ],
+   "add_pages": [
+    "03_value_models"
+   ]
+  }
+ ]
+}

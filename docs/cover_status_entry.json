@@ -1,0 +1,16 @@
+{
+  "repo": "adminmrobo/valuation_without_revenue",
+  "url": "https://adminmrobo.github.io/valuation_without_revenue/",
+  "title": "매출이 없어도 기업가치는 만들 수 있다",
+  "domain": ["acct", "biz"],
+  "pages": [
+    {"file": "index.html", "cover_key": "cover_index", "cover_status": "needed"},
+    {"file": "01_market_kpi.html", "cover_key": "cover_01", "cover_status": "needed", "ontology": "01_market_kpi.html#export"},
+    {"file": "02_proforma_vc.html", "cover_key": "cover_02", "cover_status": "needed", "ontology": "02_proforma_vc.html#export"},
+    {"file": "03_value_models.html", "cover_key": "cover_03", "cover_status": "needed", "ontology": "03_value_models.html#export"}
+  ],
+  "languages": ["ko"],
+  "language_count": 1,
+  "abacus_bot": "v2 표정 사용",
+  "updated": "2026-11-06"
+}
